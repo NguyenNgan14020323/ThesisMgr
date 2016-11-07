@@ -1,0 +1,61 @@
+DROP DATABASE ThesisMgr;
+CREATE DATABASE ThesisMgr;
+USE ThesisMgr;
+CREATE TABLE Khoa(
+	donvi varchar(100) PRIMARY KEY,
+	tenkhoa varchar(100) NOT NULL,
+	vanphongkhoa varchar(100) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE bomon(
+	mabomon varchar(100),
+	donvi varchar(100),
+	PRIMARY KEY(mabomon,donvi),
+	tenbomon varchar(100) NOT NULL,
+	FOREIGN KEY (donvi) REFERENCES Khoa(donvi) ON DELETE RESTRICT ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE phongtn(
+	mabomon varchar(100) PRIMARY KEY,
+	sophong varchar(100),
+	FOREIGN KEY (mabomon) REFERENCES bomon(mabomon) ON DELETE RESTRICT ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE giangvien(
+	macanbo int(11),
+	hoten varchar(100) NOT NULL,
+	donvi varchar(100) NOT NULL,
+	vnuemail varchar(100) NOT NULL,
+	pass text NOT NULL,
+	PRIMARY KEY(macanbo,donvi),
+	FOREIGN KEY (donvi) REFERENCES khoa(donvi) ON DELETE RESTRICT ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE detai(
+	madetai varchar(100),
+	macanbo int(11),
+	tendetai varchar(100) NOT NULL,
+	PRIMARY KEY(madetai,macanbo),
+	FOREIGN KEY (macanbo) REFERENCES giangvien(macanbo) ON DELETE RESTRICT ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE hocvien(
+	masv int(11) PRIMARY KEY,
+	hoten varchar(100) NOT NULL,
+	khoahoc varchar(100) NOT NULL,
+	nganh varchar(100) NOT NULL,
+	vnuemail varchar(100) NOT NULL,
+	pass text NOT NULL	
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE svbaove(
+	masv int(11) PRIMARY KEY,
+	hoten varchar(100) NOT NULL,
+	khoahoc varchar(100) NOT NULL,
+	nganh varchar(100) NOT NULL,
+	vnuemail varchar(100) NOT NULL,
+	FOREIGN KEY (masv) REFERENCES hocvien(masv) ON DELETE RESTRICT ON UPDATE CASCADE
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE dkdetai(
+	madetai varchar(100),
+	masv int(11),
+	chitiet varchar(200) NOT NULL,
+	PRIMARY KEY (madetai,masv),
+	FOREIGN KEY (madetai) REFERENCES detai(madetai) ON DELETE RESTRICT ON UPDATE CASCADE,
+	FOREIGN KEY (masv) REFERENCES svbaove(masv) ON DELETE RESTRICT ON UPDATE CASCADE
+
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

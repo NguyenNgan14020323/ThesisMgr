@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ngàn Nguyễn</Author>
+  <LastAuthor>Ngàn Nguyễn</LastAuthor>
+  <Created>2016-11-05T07:22:38Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4950</WindowHeight>
+  <WindowWidth>10515</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="147"
+    ss:Span="1"/>
+   <Column ss:Index="4" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="113.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">masv</Data></Cell>
+    <Cell><Data ss:Type="String">hoten</Data></Cell>
+    <Cell><Data ss:Type="String">khoahoc</Data></Cell>
+    <Cell><Data ss:Type="String">nganh</Data></Cell>
+    <Cell><Data ss:Type="String">vnuemail</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14020818</Data></Cell>
+    <Cell><Data ss:Type="String">Lâm Thị Dung</Data></Cell>
+    <Cell><Data ss:Type="String">QH2014I/CQ-CB</Data></Cell>
+    <Cell><Data ss:Type="String">Công nghệ thông tin</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:14020818@vnu.edu.vn"><Data
+      ss:Type="String">14020818@vnu.edu.vn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14020822</Data></Cell>
+    <Cell><Data ss:Type="String">Phạm Văn Linh</Data></Cell>
+    <Cell><Data ss:Type="String">QH2014I/CQ-CD</Data></Cell>
+    <Cell><Data ss:Type="String">Công nghệ thông tin</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:14020822@vnu.edu.vn"><Data
+      ss:Type="String">14020822@vnu.edu.vn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14020323</Data></Cell>
+    <Cell><Data ss:Type="String">Nguyễn Thị Ngàn</Data></Cell>
+    <Cell><Data ss:Type="String">QH2014I/CQ-CB</Data></Cell>
+    <Cell><Data ss:Type="String">Công nghệ thông tin</Data></Cell>
+    <Cell ss:StyleID="s62" ss:HRef="mailto:14020323@vnu.edu.vn"><Data
+      ss:Type="String">14020323@vnu.edu.vn</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

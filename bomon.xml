@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ngàn Nguyễn</Author>
+  <LastAuthor>Ngàn Nguyễn</LastAuthor>
+  <Created>2016-11-05T15:39:35Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4665</WindowHeight>
+  <WindowWidth>11235</WindowWidth>
+  <WindowTopX>600</WindowTopX>
+  <WindowTopY>315</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="63.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="134.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">mabomon</Data></Cell>
+    <Cell><Data ss:Type="String">donvi</Data></Cell>
+    <Cell><Data ss:Type="String">tenbomon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INT2205 1</Data></Cell>
+    <Cell><Data ss:Type="String">CNTT</Data></Cell>
+    <Cell><Data ss:Type="String">Phát triển ứng dụng web</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INT1105 1</Data></Cell>
+    <Cell><Data ss:Type="String">ĐTVT</Data></Cell>
+    <Cell><Data ss:Type="String">Tín hiệu hệ thống</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INT1106 7</Data></Cell>
+    <Cell><Data ss:Type="String">HTTT</Data></Cell>
+    <Cell><Data ss:Type="String">Hệ thống thông tin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INT1356 7</Data></Cell>
+    <Cell><Data ss:Type="String">CNTT</Data></Cell>
+    <Cell><Data ss:Type="String">Công nghệ phần mềm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INT2568 9</Data></Cell>
+    <Cell><Data ss:Type="String">HTTT</Data></Cell>
+    <Cell><Data ss:Type="String">Mạng máy tính</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,10 @@
+.navbar-brand>img{
+	margin-top: 0px;
+}
+.navbar-default{
+	border: none;
+	background: none;
+}
+.collapse .navbar-collapse .navbar-ex1-collapse{
+	margin-top: 20px;
+}
